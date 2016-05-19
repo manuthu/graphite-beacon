@@ -120,7 +120,11 @@ Value units:
     {
         // Graphite server URL
         "graphite_url": "http://localhost",
-
+        
+        // SSL Certificates when dealing with HTTPS
+        "ssl_certfile": "/path/to/ssl/graphite-beacon.crt",
+        "ssl_keyfile": "/path/to/ssl/graphite-beacon.key",
+        
         // Public graphite server URL
         // Used when notifying handlers, defaults to graphite_url
         "public_graphite_url": null,
